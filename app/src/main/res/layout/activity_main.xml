@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a99logotop"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_abrir_Ilha_Grande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        android:text="Passeios de Ilha Grande/RJ"
+        android:textStyle="italic"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>
+
+    <Button
+        android:id="@+id/btn_abrir_Maragogi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Passeios de Maragogi/AL"
+        android:textStyle="italic"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>/>
+
+    <Button
+        android:id="@+id/btn_abrir_Ilha_Mel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Passeios de Ilha do Mel/PR"
+        android:textStyle="italic"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/white"
+        android:text="Voltar"
+        android:textColor="#4A4A4A" />
+
+
+</LinearLayout>

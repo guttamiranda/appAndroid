@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app99"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/white"
+        android:text="Entrar"
+        android:textColor="@android:color/system_accent3_700" />
+
+    <Button
+        android:id="@+id/btn_explorar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="Explorar"
+        android:textColor="@android:color/system_accent3_700" />
+
+
+</LinearLayout>

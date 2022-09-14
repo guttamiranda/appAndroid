@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MaragogiActivity"
+    android:background="@drawable/backsemlogo">
+
+    <TextView
+        android:id="@+id/txt_IlhaDoMel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Com marinheiros experientes e embarcações seguras, levamos você para conhecer os lugares mais famosos da Ilha do Mel-PR, como a Praia de Encantadas e a Baía dos Golfinhos. \nSaída: 10h / Retorno: 16h. \nEmbarcação: Escuna/Saveiro \nPreço: 200,00."
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+    <Button
+        android:id="@+id/btn_avaliacoesMel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="Ver avaliações"
+        tools:ignore="TextContrastCheck"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>/>
+
+    <Button
+        android:id="@+id/btn_comprar_passeio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:text="Comprar passeio"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>/>
+
+    <Button
+        android:id="@+id/btn_voltar_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:text="Voltar ao início"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/ilha_do_mel" />-->
+
+
+</LinearLayout>

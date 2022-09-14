@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsemlogo"
+    android:orientation="vertical"
+    tools:context=".MaragogiActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        android:contentDescription="praia"
+        app:srcCompat="@drawable/ilhagranderj" />
+
+    <TextView
+        android:id="@+id/txt_Maragogi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C4F6F6F6"
+        android:fontFamily="serif"
+        android:text="Um espetáculo da natureza! Visite um lugar inesquecível! Um passeio livre sobre as águas calmas da região norte da Ilha. \nBarco: Escuna - das 10h às 16h. Preço: 200,00. \nAntes de comprar verifique a indicação de acessibilidade."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/acessibilidade"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+
+        android:contentDescription="acessibilidade"
+        app:srcCompat="@drawable/acessibilidade" />
+
+    <Button
+        android:id="@+id/btn_avaliacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Ver avaliações"
+        android:textColor="#4A4A4A"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_comprar_passeio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:text="Comprar passeio"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>/>
+
+    <Button
+        android:id="@+id/btn_voltar_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Voltar ao início"
+        android:textColor="#4A4A4A" />/>
+
+
+
+
+
+
+
+
+</LinearLayout>

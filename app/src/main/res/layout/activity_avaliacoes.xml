@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a99logotop"
+    android:orientation="vertical"
+    tools:context=".AvaliacoesActivity">
+
+    <TextView
+        android:id="@+id/txt_avaliador"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:shadowColor="#680A78"
+        android:shadowRadius="55"
+        android:text="Paulo Nogueira"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_avaliacao"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="#FBFBE8"
+        android:fontFamily="cursive"
+        android:padding="12dp"
+        android:text="Passeio fantástivo, apenas pecou um pouco na pontualidade, tivemos atraso na saída."
+        android:textColor="#540E60"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_avaliador"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/img_Estrelas"
+        android:layout_width="156dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="44dp"
+        app:srcCompat="@drawable/estrelas" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/purple_200"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/txt_avaliador2"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:shadowColor="#680A78"
+        android:shadowRadius="55"
+        android:text="Luiza Tavares"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_avaliacao2"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="#FBFBE8"
+        android:fontFamily="cursive"
+        android:padding="12dp"
+        android:text="A ilha é linda e o passeio imperdível, a escuna balança um pouco, o que pode causar enjoo em algumas pessoas, fora isso recomendo."
+        android:textColor="#540E60"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_avaliador"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/img_Estrelas2"
+        android:layout_width="156dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="44dp"
+        app:srcCompat="@drawable/estrelas" />
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Voltar"
+        android:backgroundTint="@color/white"
+        android:textColor="#4A4A4A"/>
+
+</LinearLayout>
